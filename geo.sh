@@ -15,9 +15,9 @@ apt-get install libmaxminddb0 libmaxminddb-dev geoipupdate mmdb-bin libapache2-m
 apt-get install apache2 -y;
 
 cd /usr/local/bin;
-wget -O virtualhost https://raw.githubusercontent.com/sahk888/virtualhost/master/linkfromscript1.sh?token=AMB6YSN6ON7YD4XVLHBR7MS43GG7S;
+wget -O virtualhost https://raw.githubusercontent.com/sahk888/virtualhost/master/linkfromscript1.sh;
 chmod +x virtualhost;
-wget -O addomain https://raw.githubusercontent.com/sahk888/virtualhost/master/linkfromscript2.sh?token=AMB6YSLR3WPZGDNTBNVH6IK43GHGU;
+wget -O addomain https://raw.githubusercontent.com/sahk888/virtualhost/master/linkfromscript2.sh;
 chmod +x addomain;
 
 #add vitualhost nginx
