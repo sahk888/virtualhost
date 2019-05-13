@@ -13,6 +13,7 @@ add-apt-repository ppa:maxmind/ppa -y;
 apt-get update -y;
 apt-get install libmaxminddb0 libmaxminddb-dev geoipupdate mmdb-bin libapache2-mod-geoip -y;
 apt-get install apache2 -y;
+apt-get -y install  php7.0 libapache2-mod-php7.0 php7.0-mcrypt php7.0-curl php7.0-gd php7.0-cli php7.0-dev;
 
 cd /usr/local/bin;
 wget -O virtualhost https://raw.githubusercontent.com/sahk888/virtualhost/master/linkfromscript1.sh;
