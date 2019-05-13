@@ -15,13 +15,13 @@ apt-get install libmaxminddb0 libmaxminddb-dev geoipupdate mmdb-bin libapache2-m
 apt-get install apache2 -y;
 
 cd /usr/local/bin;
-wget -O virtualhost https://raw.githubusercontent.com/andrewsokolok/virtualhost/master/virthost.sh;
+wget -O virtualhost https://raw.githubusercontent.com/sahk888/virtualhost/master/linkfromscript1.sh?token=AMB6YSN6ON7YD4XVLHBR7MS43GG7S;
 chmod +x virtualhost;
-wget -O addomain https://raw.githubusercontent.com/andrewsokolok/add_apache_alias/master/addomain.sh;
+wget -O addomain https://raw.githubusercontent.com/sahk888/virtualhost/master/linkfromscript2.sh?token=AMB6YSLR3WPZGDNTBNVH6IK43GHGU;
 chmod +x addomain;
 
 #add vitualhost nginx
-#wget -O virtualhost-nginx https://raw.githubusercontent.com/RoverWire/virtualhost/master/virtualhost-nginx.sh;
+#wget -O virtualhost-nginx https://raw.githubusercontent.com/sahk888/virtualhost/master/linkfromscript3-ngnix.sh?token=AMB6YSKUSR6LENGRLZDBUPK43GHTS;
 #chmod +x virtualhost-nginx;
 
 echo -n "Type your domain name: "; read domainname
